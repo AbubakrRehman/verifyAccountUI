@@ -1,0 +1,5 @@
+1> input atribute maxlength type attribute k baad hi kaam krega.
+
+2> pointer-events:none ---> user pointer se kuch nai kr paega targeted element pe.
+
+3> inputmode="numeric" ---> phone me keypad ko numeric me chnge kr dega. 
