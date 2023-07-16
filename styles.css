@@ -1,17 +1,17 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     height: 100vh;
     align-items: center;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     max-width: 680px;
@@ -21,22 +21,32 @@ body{
     padding: 10px;
 }
 
-.code__container{
+.code__container {
     display: flex;
     justify-content: center;
 
 }
 
-.code{
+.code {
     width: 50px;
     height: 70px;
     margin: 5px;
     font-size: 50px;
     text-align: center;
+    pointer-events: none;
 }
 
-h1{
+.code:nth-child(1) {
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.code:valid {
+    /* box-shadow: 0px 0px 10px rgba(95, 167, 240, 0.458) ; */
+    /* border: 2px solid red; */
+}
+
+h1 {
     text-align: center;
 }
-
 
